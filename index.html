@@ -1,382 +1,83 @@
 <!doctype html>
 <html lang="en">
-  <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.83.1">
-    <title>BOOM Z VPN</title>
-	<link rel="canonical" href="https://www.kguza.net" />
-<link rel="stylesheet" href="ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"-->
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>BOOM Z VPN</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      background-color: #F5F5F5;
+      font-family: 'Mitr', sans-serif;
+      color: #990099;
+      height: auto;
+      max-width: 100%;
+    }
+    .navbar {
+      background-color: #28a745;
+    }
+    .card-body {
+      background-color: #000000;
+    }
+    .card-body h5 {
+      color: #d5d5d5;
+    }
+    .card-body p {
+      color: #868686;
+    }
+  </style>
+</head>
+<body>
+
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">BOOM Z VPN</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-            <a class="nav-link" href="index.html" ><i class="fa fa-home"></i> หน้าแรก</a>
-          </li>
-                       <li class="nav-item">
-            <a class="nav-link" href="admin/server.html" ><i class="fa fa-mail-forward"></i> สำหรับแอทมิน</a>
-          </li>
-        <li class="nav-item">
-            <a class="nav-link" href="seller/create.html" ><i class="fa fa-user-plus"></i> สร้างบัญชีวีพีเอ็น</a>
-          </li>
- </li>
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link d-sm-none" href="https://youtu.be/w1jBNCa7iNk" ><i class="fa fa-video-camera"></i>  วิธีเช่าใช้งาน</a>
+            <a class="nav-link" href="index.html"><i class="fa fa-home"></i> หน้าแรก</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-sm-none" href="https://m.me/wullop.onuamit.5" ><i class="fa fa-weixin"></i>  ติดต่อแอดมิน</a>
+            <a class="nav-link" href="admin/server.html"><i class="fa fa-mail-forward"></i> สำหรับแอทมิน</a>
           </li>
-                  </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="seller/create.html"><i class="fa fa-user-plus"></i> สร้างบัญชีวีพีเอ็น</a>
+          </li>
+          <li class="nav-item d-sm-none">
+            <a class="nav-link" href="https://youtu.be/w1jBNCa7iNk"><i class="fa fa-video-camera"></i> วิธีเช่าใช้งาน</a>
+          </li>
+          <li class="nav-item d-sm-none">
+            <a class="nav-link" href="https://m.me/wullop.onuamit.5"><i class="fa fa-weixin"></i> ติดต่อแอดมิน</a>
+          </li>
+        </ul>
         <form class="d-flex d-none d-sm-block">
-          <button class="btn btn-warning" type="button" >ติดต่อแอดมิน</button>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5386751744979618"
-     ></script>
+          <button class="btn btn-warning" type="button">ติดต่อแอดมิน</button>
         </form>
       </div>
     </div>
   </nav>
 </header>
-<style>
-body {
-height : auto;
-max-width : 100%;
-width : 100%;
-background-color : #F5F5F5;
-font-family: 'Mitr';
-color : #990099;
-}
-</style>
-<body>
-<p>
-<center>
-<div class="container-fluid " >
-<div class="modal fade" id="scname" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-<p>
-<br />
-<textarea type="text" id="myInput"class="col-12"></textarea>
-<p>
-<br>
-<iframe width="100%" height="315" src="web/app.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</iframe>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="form-control btn btn-primary" onclick="copy()">คัดลอก Script</button>
-      </div>
-    </div>
+
+<main role="main" class="container mt-5 pt-5">
+  <div class="text-center">
+    <img src="assets/image/boomz.png" alt="Boom Z VPN" width="120">
+    <h4 class="mt-4">KGUZA VPN FREE THAILAND</h4>
   </div>
-</div>
-<div class="modal fade" id="scname2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-<p>
-<br />
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col"> <center>ซิมการ์ด</th>
-      <th scope="col"> <center>รหัสสมัคร</th>
-      <th scope="col"> <center>ราคา</th>
-    </tr>
-  </thead>
-  <tbody>
-        </tbody>
-</table>
-<p>
-<br>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-lg-6 wow fadeInUp animated " style="visibility: visible; animation-name: fadeInUp;"> 
-<img src="assets/image/boomz.png" width="120dp" height="auto">
-<br />
-<h4>KGUZA VPN FREE THAILAND</h4>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<script data-ad-client="ca-pub-5076964146472582" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-199888968-1">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-199888968-1');
-  gtag('config', 'AW-648102366');
-  gtag('config', 'AW-648102366/ZT7FCKUFEN6DhbUC', {
-    'phone_conversion_number': '0923268286'
-  });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5386751744979618"
-     ></script>
-</head>
-<div class="container">
-<font color="#000000">
-<div class="col-lg-12  wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;animation-delay: 1.0s;">
-<a href="https://line.me/ti/g2/SlZHb-v01iQ2RidDKhO6Z4k4rqfPdGo5RRX2vw" class="btn btn-outline-success rounded-pill"><i class="fa fa-comments-o" aria-hidden="true"></i> เข้ากลุ่มไลน์</a> 
-<a href="https://m.me/wullop.onuamit.5" class="btn btn-outline-warning rounded-pill">ติดต่อสอบถาม <i class="fa fa-paper-plane" aria-hidden="true"></i></i> </a> 
-</div>
-</div>
-<br />
-  <div class="row justify-content-center justify-content-lg-start">
-
-                                                             
-                    
-                      
-
-            <div class="row justify-content-center justify-content-lg-start">
-
-                                                             
-                    
-                        <div class="col-6 col-lg-3 mb-4" data-aos="zoom-in">
-
-                        <div class="card-anim-main  border-ys shadow p-1" style="border-radius: 1vh; height: fit-content; background-color:#000000; box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;">                                                                  
-                                <div class="p-0">                                   
-                                    <a href="?page=buy&id=19">
-                                        <div class="view overlay">
-                                            
-                                            <center>
-                                        
-                                                <img class="img-fluid mb-1" src="" style="border-radius: 1vh 1vh 0 0; width: 100%; max-width: 100vh;">
-                                            </center>
-
-                                            <a href="#!">
-                                                <div class="mask rgba-white-slight"></div>
-                                            </a>
-                                        </div>
-
-                                        <div class="card-body p-2 pt-2 pb-1">
-                                            <h5 class="  text-strongest mb-2 mt-1 fs-6" style="word-wrap: break-word; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color:#d5d5d5;">DTAC ID 15 วัน</h5>   
-                                            
-                                            <p style="color:#868686; margin-bottom:-0.5rem; font-size:10px;">ราคาสินค้า</p>
-                                            
-                                            <div class="d-flex justify-content-between">
-                                                <p class="text-main  align-self-center mb-2"><strong style="color:#f0ab0c;">฿25</strong>
-                                                </p>
-                                                
-                                                <span>
-                                                    <p class='mt-2 ' style='width: fit-content; color:#e81313; font-size:10px; background-color: #e8131042; padding: 1px 6px; border-radius:1vh;'>สินค้าหมด</p>                                                    </span>
-
-
-                                               
-                                            </div>
-
-                                        <center>
-                                            <button class="bg-cus w-100 text-white mt-2 mb-2 " style="border-radius: 1vh;" onclick="tobuy(19, 'DTAC ID 15 วัน', '0')">
-                                                <i class="fa-duotone fa-bag-shopping"></i> &nbsp;สั่งซื้อสินค้า 
-                                            </button>
-                                        </center>
-                                        
-                                        <center class="mb-2">
-                                            <button class="btn btn btn-outline-dark w-100 mt-1 mb-1 bg-tt" style="border-radius: 1vh; font-size:14px;">
-                                                <span class="w-100 text-secondary mt-4 mb-4" onclick="detail(19)">
-                                                <i class="fa-duotone fa-circle-info fa-fade" style="--fa-primary-color: #0ea501; --fa-secondary-color: #0ea501;"></i>&nbsp;รายละเอียด</span>
-                                            </button>
-                                        </center>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                      </div>
-                                            
-                    
-                        <div class="col-6 col-lg-3 mb-4" data-aos="zoom-in">
-
-                        <div class="card-anim-main  border-ys shadow p-1" style="border-radius: 1vh; height: fit-content; background-color:#000000; box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;">                                                                  
-                                <div class="p-0">                                   
-                                    <a href="?page=buy&id=18">
-                                        <div class="view overlay">
-                                            
-                                            <center>
-                                        
-                                                <img class="img-fluid mb-1" src="" style="border-radius: 1vh 1vh 0 0; width: 100%; max-width: 100vh;">
-                                            </center>
-
-                                            <a href="#!">
-                                                <div class="mask rgba-white-slight"></div>
-                                            </a>
-                                        </div>
-
-                                        <div class="card-body p-2 pt-2 pb-1">
-                                            <h5 class="  text-strongest mb-2 mt-1 fs-6" style="word-wrap: break-word; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color:#d5d5d5;">DTAC ID 30 วัน</h5>   
-                                            
-                                            <p style="color:#868686; margin-bottom:-0.5rem; font-size:10px;">ราคาสินค้า</p>
-                                            
-                                            <div class="d-flex justify-content-between">
-                                                <p class="text-main  align-self-center mb-2"><strong style="color:#f0ab0c;">฿40</strong>
-                                                </p>
-                                                
-                                                <span>
-                                                    <p class='mt-2 ' style='width: fit-content; color:#e81313; font-size:10px; background-color: #e8131042; padding: 1px 6px; border-radius:1vh;'>สินค้าหมด</p>                                                    </span>
-
-
-                                               
-                                            </div>
-
-                                        <center>
-                                            <button class="bg-cus w-100 text-white mt-2 mb-2 " style="border-radius: 1vh;" onclick="tobuy(18, 'DTAC ID 30 วัน', '0')">
-                                                <i class="fa-duotone fa-bag-shopping"></i> &nbsp;สั่งซื้อสินค้า 
-                                            </button>
-                                        </center>
-                                        
-                                        <center class="mb-2">
-                                            <button class="btn btn btn-outline-dark w-100 mt-1 mb-1 bg-tt" style="border-radius: 1vh; font-size:14px;">
-                                                <span class="w-100 text-secondary mt-4 mb-4" onclick="detail(18)">
-                                                <i class="fa-duotone fa-circle-info fa-fade" style="--fa-primary-color: #0ea501; --fa-secondary-color: #0ea501;"></i>&nbsp;รายละเอียด</span>
-                                            </button>
-                                        </center>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                      </div>
-                                            
-                    
-                        <div class="col-6 col-lg-3 mb-4" data-aos="zoom-in">
-
-                        <div class="card-anim-main  border-ys shadow p-1" style="border-radius: 1vh; height: fit-content; background-color:#000000; box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;">                                                                  
-                                <div class="p-0">                                   
-                                    <a href="?page=buy&id=17">
-                                        <div class="view overlay">
-                                            
-                                            <center>
-                                        
-                                                <img class="img-fluid mb-1" src="" style="border-radius: 1vh 1vh 0 0; width: 100%; max-width: 100vh;">
-                                            </center>
-
-                                            <a href="#!">
-                                                <div class="mask rgba-white-slight"></div>
-                                            </a>
-                                        </div>
-
-                                        <div class="card-body p-2 pt-2 pb-1">
-                                            <h5 class="  text-strongest mb-2 mt-1 fs-6" style="word-wrap: break-word; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color:#d5d5d5;">AIS Play 64K 15 วัน</h5>   
-                                            
-                                            <p style="color:#868686; margin-bottom:-0.5rem; font-size:10px;">ราคาสินค้า</p>
-                                            
-                                            <div class="d-flex justify-content-between">
-                                                <p class="text-main  align-self-center mb-2"><strong style="color:#f0ab0c;">฿25</strong>
-                                                </p>
-                                                
-                                                <span>
-                                                    <p class='mt-2 ' style='width: fit-content; color:#e81313; font-size:10px; background-color: #e8131042; padding: 1px 6px; border-radius:1vh;'>สินค้าหมด</p>                                                    </span>
-
-
-                                               
-                                            </div>
-
-                                        <center>
-                                            <button type="button" class="btn btn-primary">Primary</button>
-                                        </center>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                      </div>
-                                            
-                    
-                        <div class="col-6 col-lg-3 mb-4" data-aos="zoom-in">
-
-                        <div class="card-anim-main  border-ys shadow p-1" style="border-radius: 1vh; height: fit-content; background-color:#000000; box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;">                                                                  
-                                <div class="p-0">                                   
-                                    <a href="?page=buy&id=16">
-                                        <div class="view overlay">
-                                            
-                                            <center>
-                                        
-                                                <img class="img-fluid mb-1" src="" style="border-radius: 1vh 1vh 0 0; width: 100%; max-width: 100vh;">
-                                            </center>
-
-                                            <a href="#!">
-                                                <div class="mask rgba-white-slight"></div>
-                                            </a>
-                                        </div>
-
-                                        <div class="card-body p-2 pt-2 pb-1">
-                                            <h5 class="  text-strongest mb-2 mt-1 fs-6" style="word-wrap: break-word; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color:#d5d5d5;">AIS Play 64K 30 วัน</h5>   
-                                            
-                                            <p style="color:#868686; margin-bottom:-0.5rem; font-size:10px;">ราคาสินค้า</p>
-                                            
-                                            <div class="d-flex justify-content-between">
-                                                <p class="text-main  align-self-center mb-2"><strong style="color:#f0ab0c;">฿40</strong>
-                                                </p>
-                                                
-                                                <span>
-                                                    <p class='mt-2 ' style='width: fit-content; color:#e81313; font-size:10px; background-color: #e8131042; padding: 1px 6px; border-radius:1vh;'>สินค้าหมด</p>                                                    </span>
-
-
-                                               
-                                            </div>
-
-                                        <center>
-                                            <button class="bg-cus w-100 text-white mt-2 mb-2 " style="border-radius: 1vh;" onclick="tobuy(16, 'AIS Play 64K 30 วัน', '0')">
-                                                <i class="fa-duotone fa-bag-shopping"></i> &nbsp;สั่งซื้อสินค้า 
-                                            </button>
-                                        </center>
-                                        
-                                        <center class="mb-2">
-                                            <button class="btn btn btn-outline-dark w-100 mt-1 mb-1 bg-tt" style="border-radius: 1vh; font-size:14px;">
-                                                <span class="w-100 text-secondary mt-4 mb-4" onclick="detail(16)">
-                                                <i class="fa-duotone fa-circle-info fa-fade" style="--fa-primary-color: #0ea501; --fa-secondary-color: #0ea501;"></i>&nbsp;รายละเอียด</span>
-                                            </button>
-                                        </center>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                      </div>
-                     </div>
-
-
-
-
-
-
 
  
+    
+</script>
+
+</body>
 </html>
